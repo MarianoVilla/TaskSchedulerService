@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TaskSchedulerService.ConsoleApp", "TaskSchedulerService.ConsoleApp\TaskSchedulerService.ConsoleApp.vbproj", "{9B42D451-0518-403C-B8D1-132DD2AB9F85}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TaskSchedulerService.Lib", "TaskSchedulerService.Lib\TaskSchedulerService.Lib.vbproj", "{79D4240E-9D38-4158-9FB7-3CE105836D2D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TaskSchedulerService.Test", "TaskSchedulerService.Test\TaskSchedulerService.Test.vbproj", "{0003DCA5-E131-4B18-9B6A-8D3281D83FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9B42D451-0518-403C-B8D1-132DD2AB9F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B42D451-0518-403C-B8D1-132DD2AB9F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B42D451-0518-403C-B8D1-132DD2AB9F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D4240E-9D38-4158-9FB7-3CE105836D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D4240E-9D38-4158-9FB7-3CE105836D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D4240E-9D38-4158-9FB7-3CE105836D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D4240E-9D38-4158-9FB7-3CE105836D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0003DCA5-E131-4B18-9B6A-8D3281D83FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0003DCA5-E131-4B18-9B6A-8D3281D83FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0003DCA5-E131-4B18-9B6A-8D3281D83FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0003DCA5-E131-4B18-9B6A-8D3281D83FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
