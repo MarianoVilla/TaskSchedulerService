@@ -12,6 +12,8 @@ Module Program
         ConfigureLog()
         Try
 
+            LogsUtils.Loguear("Starting the app.")
+
             'A general approach would be to run processes from the AppSettings:
             Dim Executables = ConfigurationManager.AppSettings("ExecutablesToRun").Split("|")
             Dim Proc = TasksHandler.RunProcess(Executables)
@@ -21,7 +23,6 @@ Module Program
             Mailing.Send("I've executed the notepad.")
 
         Catch ex As Exception
-
             'Log an eventual exception:
             LogsUtils.Loguear("Something went wrong: " + ex.Message + "\n" + ex.StackTrace)
 
