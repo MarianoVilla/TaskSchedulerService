@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Alpha.Utilidades.General">
+      <HintPath>D:\Dager\Cosas\Stuff\AS\CS and Prog\DLL\Alpha.Utilidades.General.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
